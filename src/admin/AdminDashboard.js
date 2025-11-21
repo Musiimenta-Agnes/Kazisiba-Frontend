@@ -18,12 +18,6 @@ const AdminDashboard = () => {
       icon: <FaImages />,
       link: "/gallery"
     },
-    // {
-    //   title: "Admin Profile",
- 
-    //   icon: <FaUserCircle />,
-    //   link: "/profile"
-    // },
     {
       title: "Material",
  
@@ -35,12 +29,6 @@ const AdminDashboard = () => {
   
       icon: <FaTasks />,
       link: "/completed-projects"
-    },
-    {
-      title: "FAQuestions",
-
-      icon: <FaTasks />,
-      link: "/questions"
     }
   ];
 

@@ -34,19 +34,19 @@ function Projects() {
 
   // ⭐ STATIC PROJECTS (same style as your materials page)
   const staticProjects = [
-    { type: "video", src: "/images/vid-6.mp4", title: "Project 1" },
-    { type: "image", src: "/images/modern-kitchen-interior-design.jpg", title: "Project 2" },
-    { type: "image", src: "/images/3d-rendering-white-wood-living-room-near-bedroom-upstair.jpg", title: "Project 3" },
-    { type: "video", src: "/images/vid one.mp4", title: "Project 4" },
-    { type: "image", src: "/images/neon-robot-vacuum-cleaner (1).jpg", title: "Project 5" },
-    { type: "image", src: "/images/futuristic-kitchen-interior-design.jpg", title: "Project 6" },
+    { type: "video", src: "/images/vid-6.mp4", title: "Project 13" },
+    { type: "image", src: "/images/modern-kitchen-interior-design.jpg", title: "Project 12" },
+    { type: "image", src: "/images/3d-rendering-white-wood-living-room-near-bedroom-upstair.jpg", title: "Project 11" },
+    { type: "video", src: "/images/vid one.mp4", title: "Project 10" },
+    { type: "image", src: "/images/neon-robot-vacuum-cleaner (1).jpg", title: "Project 9" },
+    { type: "image", src: "/images/futuristic-kitchen-interior-design.jpg", title: "Project 8" },
     { type: "image", src: "/images/42e57da26dda3356b9f49b8728babf86.jpg", title: "Project 7" },
-    { type: "image", src: "/images/videoframe_18560.png", title: "Project 8" },
-    { type: "image", src: "/images/75192bb5a3ff5f9ca9d0d4b68cabacfe.jpg", title: "Project 9" },
-    { type: "image", src: "/images/sitting1.jpg", title: "Project 10" },
-    { type: "image", src: "/images/bed4.jpg", title: "Project 11" },
-    { type: "video", src: "/images/vid7.mp4", title: "Project 12" },
-    { type: "image", src: "/images/bed3.jpg", title: "Project 13" }
+    { type: "image", src: "/images/videoframe_18560.png", title: "Project 6" },
+    { type: "image", src: "/images/75192bb5a3ff5f9ca9d0d4b68cabacfe.jpg", title: "Project 5" },
+    { type: "image", src: "/images/sitting1.jpg", title: "Project 4" },
+    { type: "image", src: "/images/bed4.jpg", title: "Project 3" },
+    { type: "video", src: "/images/vid7.mp4", title: "Project 2" },
+    { type: "image", src: "/images/bed3.jpg", title: "Project 1" }
   ];
 
   const renderProject = (project, key) => (

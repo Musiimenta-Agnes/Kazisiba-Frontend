@@ -35,8 +35,8 @@ function OurHeader() {
             className="container-fluid"
             style={{ backgroundColor: "#1F3C88" }}
           >
-            <a className="navbar-brand banx" href="/">
-              <img src="/images/logo.png" alt="Banx" className="logo" />
+            <a  className="navbar-brand banx" href="/">
+              <img src="/images/logo.png" alt="Banx" className="logo"  /> Banx Gypsum Kazisiba
             </a>
 
             <button

@@ -79,20 +79,12 @@ const TopNav = () => {
             <i className="bi bi-tools"></i> Admin Panel
           </Nav.Link>
   
-        <Nav.Link
-          as={Link}
-          to="/kazisiba-admin/admin/very/secure/profile"
-          className={isActive('/kazisiba-admin/admin/very/secure/profile') ? 'active-link' : ''}
-          onClick={handleLinkClick}
-        >
-          {/* <FaUserCircle /> Admin Profile */}
-        </Nav.Link>
 
         {/* LOGOUT BUTTON */}
         <Nav.Link
           onClick={handleLogout}
           className="logout-link"
-          style={{ cursor: "pointer", color: "#dc3545" }}
+          style={{ cursor: "pointer", color: "orange" }}
         >
           <FaSignOutAlt /> Logout
         </Nav.Link>

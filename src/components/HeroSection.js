@@ -80,13 +80,27 @@ export default function HeroSection() {
 
     <br/>
     <h1 className="heading" style={{textAlign:'center'}} >What Banx Gypsum Does</h1>
-    <p style={{textAlign:'left', width:'100%'}}>Banx Gypsum specializes in construction, interior finishing, and customized design solutions using high-quality gypsum products.
-       With years of hands-on experience, we provide exceptional services that include elegant ceiling installations, 
-       stylish wall partitions, decorative moldings, and bespoke interior designs. Our team works closely with clients
-        to understand their vision and transform spaces into functional, aesthetically pleasing environments.
-         Whether it is a residential home, commercial office, or industrial facility,
-          we ensure that every project is completed with precision, durability, and attention to detail, 
-          reflecting our commitment to excellence and customer satisfaction.</p>
+<div style={{ textAlign: 'left', width: '100%', lineHeight: '1.6', fontSize: '16px', color: '#333' }}>
+  <p>
+    <strong>Banx Gypsum</strong> specializes in construction, interior finishing, and customized design solutions using high-quality gypsum products.
+  </p>
+  <p>
+    With years of hands-on experience, we offer:
+  </p>
+  <ul style={{ paddingLeft: '20px', marginTop: '0', marginBottom: '0' }}>
+    <li>Elegant ceiling installations</li>
+    <li>Stylish wall partitions</li>
+    <li>Decorative moldings</li>
+    <li>Bespoke interior designs tailored to your vision</li>
+  </ul>
+  <p>
+    Our team collaborates closely with clients to transform spaces into functional and aesthetically pleasing environments.
+  </p>
+  <p>
+    Whether it’s a residential home, commercial office, or industrial facility, every project is completed with <strong>precision, durability, and attention to detail</strong>, reflecting our commitment to excellence and customer satisfaction.
+  </p>
+</div>
+
 
 
          <br/>

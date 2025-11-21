@@ -8,13 +8,12 @@
    font-family: ' sans-serif';
    padding-bottom: 10px;
    color: white;
-   text-shadow: 0 0 2px rgb(30, 30, 181),  0 0 3px rgb(22, 10, 158);
+ 
 }
 
 .logo {
    width: 60px;
    height: 60px;
-
    clip-path: circle(50% at 50% 50%); 
    object-fit: cover ; padding-bottom: 0px; 
 
