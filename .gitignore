@@ -1,0 +1,10 @@
+build.zip/
+node_modules/
+# public/images/
+build/
+*.log
+.env
+
+
+
+build.zip
